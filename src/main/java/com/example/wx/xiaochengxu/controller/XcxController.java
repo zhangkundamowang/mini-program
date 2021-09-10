@@ -10,8 +10,8 @@ import me.chanjar.weixin.mp.bean.template.WxMpTemplateMessage;
 public class XcxController {
 
     /*
-     * 微信测试账号推送
-     * */
+     * 登陆公众平台测试账号系统   测试公众号消息推送接口
+     */
     @GetMapping("/push")
     public void push() {
         //1，配置
